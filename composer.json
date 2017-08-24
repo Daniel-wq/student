@@ -1,0 +1,21 @@
+{
+    "name": "my/student",
+    "require": {
+        "gregwar/captcha": "dev-master",
+        "filp/whoops": "^2.0@dev",
+        "codeguy/upload": "dev-master",
+        "daniel007/model":"dev-master"
+    },
+    "autoload":{
+        "files":[
+            "houdunwang/core/functions.php",
+        "system/helper.php",
+        "system/config/database.php"
+    ],
+        "psr-4":{
+            "houdunwang\\":"houdunwang",
+            "app\\":"app",
+            "system\\":"system"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "daniel007/model",
+    "authors": [
+        {
+            "name": "Daniel",
+            "email": "wq@example.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+    	"psr-4":{
+    		"daniel007\\model\\":""
+    	}
+    }
+}
